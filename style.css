@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+}
+.sudaderas-containerr img{
+    width:100%;
+}
+
+.menu a {
+    color:#fff;
+    text-decoration:none;
+    padding: 8px 15px;
+    margin:0 5px;
+    transition:background-color 0,3s ease;
+}
+.menu a.hover{
+    background-color: white;
+    color: black;
+}
+.menu-desplegable{
+    display:inline-block;
+}
+.menu-boton{
+    color: #fff;
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.menu-contenido {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+.menu-contenido a{
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.menu-contenido a:hover {
+    background-color: #dd7e7e;
+}
+.menu-desplegable:hover .menu-contenido{
+    display:block;
+}
+
+header {
+    background-color:#4C91A6 ;
+    color: #fff;
+    padding: 8px;
+    text-align:center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav a{
+    margin: 8px;
+}
+nav{
+    margin-right: 40px;
+}
+.Logo{
+    text-align: center;
+    margin-left:  40px;
+}
+
+
+
+
+.sudaderas-containerr {
+ 
+   
+    padding:30px;
+    width:40%;
+    
+}
+.sudaderas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sudadera {
+    
+    margin: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+}
+.sudaderas {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+}
+.sudaderaazul{
+margin-left: 20%;
+}
+
+.sudadera:hover {
+    transform: scale(1.05);
+}
+
+.sudadera img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.descripcion {
+    padding: 15px;
+    text-align: left; 
+}
+
+.descripcion h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.descripcion p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+    text-align: left; 
+}
+
+.caja{
+display:flex;
+margin: auto;
+justify-content: center;
+width: 100%;
+}
+a{
+color: white;
+text-decoration: none;
+}
+a :hover{
+    color: white;
+    
+}
+h3{
+    font-size: 30px;
+    background-color:darkgrey;
+    color: white;
+    margin: 0 0 15px 0px;
+}
+.suscribete{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin-bottom: 20px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.mapa{
+    width: 450px;
+    margin:auto;
+}
+input{
+    padding: 15px;
+
+}
+
+.subfooter{
+    margin-bottom: 10px;
+}
+.profoter{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.listo{
+    color: gray;
+    cursor: default;
+}
+.colegio{
+    
+    font-style: normal;
+    text-align: justify;
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: 4px double #423b42;
+    margin-bottom: 30px;
+    padding: 0% 30px; 
+}
+.fotoro{
+    margin-bottom: 30px;
+    text-align: center;
+}
+div{
+    
+    font-size: medium;
+    color: black;
+}
+footer{
+display: flex;
+margin-bottom: 15px;
+background-color:#A6604C;
+color: #ddd;
+justify-content: space-around;
+padding: 20px;
+}
+.Servicio{
+    display: flex;
+    margin: auto;
+}
+.serviciooo{
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding:0 40px;
+}
+
+   
+.finaldetexto{
+display: flex;
+margin-top: 20px;
+}
+.analogico{
+    margin-top: 120px;
+    width:60%;
+    margin: auto;
+
+}
+.finalimagen{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+.titulofinal{
+    margin-top: 3%;
+    margin-left: 48%;
+    font-size: larger;
+}
+.perfil{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.virtuall{
+    margin-top:3%;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 3%;
+}
+.virtual{
+    margin-top:3%;
+    margin-right: 5%;
+    text-align: center;
+
+}
+.mapafisico{
+    text-align: center;
+}
+.cisco{
+   margin:auto;
+   width:900px;
+}
+.cisco img{
+    width:100%;
+}
+.ciscoo{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.s1{
+    width: 47%;
+}
+.s2{
+flex: 1;
+}
+.s3{
+    width: 60%;
+    margin: auto;
+}
+.ffinal{
+    padding: 0 30px 0 10px;
+    background-color: white;
+}
+.l1{
+    width: 1150px;
+    text-align: left;
+    
+}
+.especial{
+    font-weight: bold;
+    cursor:default;
+}
+img{
+    vertical-align: top;
+}
